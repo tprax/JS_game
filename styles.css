@@ -1,12 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .title{
   display: flex;
+  height: 100px;
   justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-style: normal;
+  color: white;
+  border: solid white;
+  background-image: url("images/brickwall-background.jpg");
 }
+
 .cards{
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  border: solid white;
+  height: 250px;
+  background-image: url("images/brickwall-background.jpg");
 }
+
+#card{
+  height: 200px;
+  width: 150px;
+}
+
 .info{
   display: flex;
   justify-content: center;
+  font-size: 30px;
+  color: white;
+  border: solid white;
+  height: 400px;
+  background-image: url("images/brickwall-background.jpg");
 }
