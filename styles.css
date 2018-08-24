@@ -24,14 +24,11 @@
   background-image: url("images/brickwall-background.jpg");
 }
 
-#card{
-  height: 200px;
-  width: 150px;
-}
 
 .info{
   display: flex;
   justify-content: center;
+  align-items:center;
   font-size: 30px;
   color: white;
   border: solid white;
